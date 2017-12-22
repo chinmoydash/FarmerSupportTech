@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chinmoydash.farmersupporttech">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.wifi" />
+
+    <application
+        android:name=".FarmerSupportTechApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".farmer.FarmerActivity"
+            android:label="FarmerActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".farmer.FarmerDetailActivity"
+            android:label="@string/title_activity_farmer_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".expert.ExpertDetailActivity"
+            android:label="ExpertDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".expert.ExpertActivity"
+            android:label="ExpertActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".expert.ExpertLogin"
+            android:label="ExpertLogin" />
+        <activity
+            android:name=".farmer.FarmerLogin"
+            android:label="FarmerLogin" />
+        <activity
+            android:name=".farmer.FarmerSignUp"
+            android:label="FarmerSignUp" />
+        <activity
+            android:name=".expert.ExpertSignUp"
+            android:label="ExpertSignUp" />
+        <activity
+            android:name=".WeatherActivity"
+            android:label="WeatherDetails" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".farmer.FarmerDetailActivity" />
+
+        <activity
+            android:name=".farmer.FarmerQuery"
+            android:label="FarmerQueries"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".QueryDetails"
+            android:label="QueryDetails" />
+
+        <service
+            android:name=".background.CropJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".background.CropRefreshService"
+            android:exported="false" />
+        <service
+            android:name=".widget.CropIntentService"
+            android:exported="false" />
+        <service
+            android:name=".widget.CropWidgetRemoteService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <provider
+            android:name=".database.CropProvider"
+            android:authorities="com.example.chinmoydash"
+            android:exported="true" />
+
+        <receiver android:name=".widget.CropWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.chinmoydash.farmersupport.ACTION_CROP_UPDATED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/cropwidgetinfo" />
+        </receiver>
+
+
+        <activity
+            android:name=".expert.ExpertNews"
+            android:label="ExpertNews"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NewsDetails"
+            android:label="NewsDetails" />
+        <activity
+            android:name=".farmer.CropDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".farmer.FarmerDetailActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

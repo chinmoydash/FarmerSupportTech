@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/myCrops"
+            android:checked="true"
+            android:icon="@mipmap/crops"
+            android:title="@string/crops" />
+        <item
+            android:id="@+id/weatherForecast"
+            android:icon="@mipmap/weather"
+            android:title="@string/weather" />
+
+        <item
+            android:id="@+id/newsFeed"
+            android:icon="@mipmap/newsfeeds"
+            android:title="@string/newsfeeds" />
+
+        <item
+            android:id="@+id/farmerQueries"
+            android:icon="@mipmap/queries"
+            android:title="@string/farmerqueries" />
+
+    </group>
+
+
+</menu>

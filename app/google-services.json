@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "427750262672",
+    "firebase_url": "https://farmersupporttech.firebaseio.com",
+    "project_id": "farmersupporttech",
+    "storage_bucket": "farmersupporttech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427750262672:android:1221a2f0d0a3fdfc",
+        "android_client_info": {
+          "package_name": "com.example.chinmoydash.farmersupporttech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427750262672-soggk9ir95to9214pdhuqvfjqdumt7hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chinmoydash.farmersupporttech",
+            "certificate_hash": "dc36d41699321bf7425c3d72671deb8951d519b1"
+          }
+        },
+        {
+          "client_id": "427750262672-lgvkq49vq1ek1m2buf9vgqlbb0h3cqvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chinmoydash.farmersupporttech",
+            "certificate_hash": "0fda743814c08357d222d7a8b6f82e656e1e98fc"
+          }
+        },
+        {
+          "client_id": "427750262672-6c6q69u4dr9nekvkhmlg2tu1ec2a8g2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdNhCkRZLQhRoNEohf_TivZtQqI0PvELM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427750262672-6c6q69u4dr9nekvkhmlg2tu1ec2a8g2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

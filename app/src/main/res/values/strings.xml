@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">FarmerSupportTech</string>
+    <string name="title_activity_farmer_detail">FarmerDetailActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_expert">ExpertActivity</string>
+
+    <string name="title_activity_farmer_query">FarmerQuery</string>
+
+    <string name="pref_location_default" translatable="false">94043</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="weather">WeatherForecast</string>
+
+    <string name="pref_units_key" translatable="false">units</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_map">Map Location</string>
+    <string name="initializedKey">initialized</string>
+
+
+   <!-- News and Question -->
+
+    <string name="uploadfailurenews">Cannot Upload  news right now</string>
+    <string name="uploadfailurequestion">Cannot Upload questions right now</string>
+    <string name="crop_description">Crop Description</string>
+    <string name="add_question_fab">Add Question FAB </string>
+    <string name="your_question">Your Question goes here</string>
+    <string name="your_news_item">Add  News Item </string>
+    <string name="askquestion">Ask a Question</string>
+    <string name="answer"> Answer</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">Add</string>
+    <string name="questionkey">questionKey</string>
+    <string name="questionsKey">questions</string>
+    <string name="add_comment_fab">Add Comments FAB </string>
+    <string name="add_reply_fab"> Reply  FAB </string>
+
+    <string name="news">News</string>
+    <string name="message">Messages</string>
+    <string name="db_error">Database Error</string>
+    <string name="fb_data">Firebase Data :</string>
+
+    <string name="successful">Successful</string>
+    <string name="comment_num">4 Comments</string>
+    <string name="reply_num">4 Replies</string>
+    <string name="comments">Comments</string>
+    <string name="nocomments"> No Comments</string>
+    <string name="question">Question</string>
+    <string name="reply">Reply</string>
+    <string name="newkey">newsKey</string>
+    <string name="newsKey">news</string>
+    <string name="name_small">name</string>
+
+    <string name="commentsKey">comments</string>
+    <!-- News and Question end -->
+
+    <!-- user  category -->
+    <string name="userTypeKey">userType</string>
+    <string name="farmer">Farmer</string>
+    <string name="expert">Expert</string>
+    <string name="nouser">NoUser</string>
+    <!-- user  category end-->
+
+    <string name="repliesKey">replies</string>
+
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="replies"> replies</string>
+    <string name="noreplies">  No replies</string>
+
+   <!-- signup and login -->
+
+    <string name="forget_password">ForgotPassword</string>
+    <string name="sign_in">Sign in </string>
+    <string name="sign_up">Sign up</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re Password</string>
+    <string name="email">E-mail</string>
+    <string name="name">Name</string>
+    <string name="logout">Log Out</string>
+    <string name="password_helper_text">(Something@2017)</string>
+    <string name="email_helper_text">(someone@somemail.com)</string>
+    <string name="farmerqueries">FarmerQueries</string>
+    <string name="newsfeeds">NewsFeeds</string>
+
+    <string name="signup_success">Sign Up Success</string>
+    <string name="profile_creation_successful">Profile created successfully</string>
+    <string name="profile_creation_error">Some Error occured while creating your profile</string>
+    <string name="profile_updated">Profile updated successfully</string>
+    <string name="auth_failed">Authentication error, Please enter a valid email and password or sign up</string>
+    <string name="invalid_email">Invalid E-mail</string>
+    <string name="invalid_mobile">Invalid Mobile No</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="invalid_repassword">Invalid Re-Password</string>
+    <string name="signing_in">Signing in ..</string>
+    <!-- signup and login end  -->
+
+
+    <string name="cursor_exception">Cursor Exception</string>
+
+    <!--crops  -->
+    <string name="cprice">Price : </string>
+    <string name="curr_week_price">Curr. Week Price</string>
+    <string name="thousand">1000</string>
+    <string name="last_week_price">Last Week Price</string>
+    <string name="desc">Description</string>
+    <string name="nuts">Groundnuts</string>
+    <string name="cropsKey">crops</string>
+    <string name="changePrice">Change Price</string>
+    <string name="crops">Crops</string>
+    <string name="change">Change</string>
+    <string name="price">Price</string>
+    <string name="newprice">New Price</string>
+    <string name="priceUpdated">Price has been Updated</string>
+    <string name="crop_image">Crop Image </string>
+    <!--crops  end -->
+
+
+
+
+
+    <string name="intent_data">Intent Data </string>
+
+    <string name="eximage">Expert Image</string>
+
+
+    <string name="view_queries">View Queries</string>
+    <string name="news_and_info">News and Info</string>
+    <string name="invalid_question">Invalid Question</string>
+    <string name="invalid_format">Invalid Format</string>
+
+    <string name="error_stream">Error closing stream</string>
+    <string name="error">Error </string>
+    <string name="unit_not_found">Unit type not found: </string>
+
+
+    <string name="pref_units_metric" translatable="false">metric</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- widget strings -->
+
+    <string name ="widget_update">Widget Update</string>
+    <string name ="crop_widget_provider">Crop Widget Provider </string>
+    <string name ="broadcast_received">Broadcast Received</string>
+    <string name ="on_receive">On Receive</string>
+    <string name ="called">Called</string>
+    <string name="widget_image">Widget Image</string>
+    <!-- widget strings end  -->
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:ignore="RtlHardcoded">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fragBackground"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/crop_name"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="@dimen/name_margin_top" />
+
+        <ImageView
+            android:id="@+id/crop_image"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_size"
+            android:layout_marginBottom="@dimen/image_margin_vertical"
+            android:layout_marginTop="@dimen/image_margin_vertical"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/crop_image"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_description" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/description_margin_bottom"
+            android:layout_marginLeft="@dimen/description_margin_left"
+            android:layout_marginRight="@dimen/description_margin_right"
+            android:layout_marginTop="0dp"
+            android:autoLink="web"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+</ScrollView>

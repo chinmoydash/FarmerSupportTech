@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/wheat</item>
+        <item>@drawable/maize</item>
+        <item>@drawable/groundnuts</item>
+        <item>@drawable/sugarcane</item>
+        <item>@drawable/jute</item>
+        <item>@drawable/cotton</item>
+        <item>@drawable/tea</item>
+        <item>@drawable/coffee</item>
+        <item>@drawable/garlic</item>
+        <item>@drawable/ginger</item>
+    </array>
+
+    <string-array name="names">
+        <item>Wheat</item>
+        <item>Maize</item>
+        <item>Groundnuts</item>
+        <item>Sugarcane</item>
+        <item>Jute</item>
+        <item>Cotton</item>
+        <item>Tea</item>
+        <item>Coffee</item>
+        <item>Garlic</item>
+        <item>Ginger</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>The wheat plant has long, slender leaves, stems that are hollow in most types of wheat plants, and heads that have many kinds of flowers,
+            from 20 to 100. The flowers are grouped together in spikelets. Each spikelet has two to six flowers. In most spikelets,
+            two or three of the flowers become fertilized, and this makes them produce the grains used for food.</item>
+        <item>Maize has become a staple food in many parts of the world, with total production surpassing that of wheat or rice.
+            However, not all of this maize is consumed directly by humans. Some of the maize production is used for corn ethanol,
+            animal feed and other maize products, such as corn starch and corn syrup. The six major types of corn are dent corn, flint corn,
+            pod corn, popcorn,flour corn, and sweet corn.</item>
+        <item>
+                The peanut, also known as the groundnut and the goober[2] and taxonomically classified as Arachis
+           hypogaea, is a legume crop grown mainly for its edible seeds. It is widely grown in the tropics and
+           subtropics, being important to both small and large commercial producers. It is classified as both
+           a grain legume[3] and, because of its high oil content, an oil crop.[4] World annual production of
+           shelled peanuts was 42 million tonnes in 2014. Atypically among crop plants, peanut pods develop
+           underground rather than aboveground. It is this characteristic that the botanist Linnaeus used to
+           assign the specific name hypogaea,which means "under the earth."
+            </item>
+        <item>
+                Sugarcane is a tropical, perennial grass that forms lateral shoots at the base to produce multiple stems,
+            typically three to four m (10 to 13 ft) high and about 5 cm (2 in) in diameter. The stems grow into cane stalk,
+            which when mature constitutes around 75% of the entire plant. A mature stalk is typically composed of 11–16% fiber,
+            12–16% soluble sugars, 2–3% nonsugars, and 63–73% water.A sugarcane crop is sensitive to the climate, soil type, irrigation,
+            fertilizers, insects, disease control, varieties,and the harvest period.
+            The average yield of cane stalk is 60–70 tonnes per hectare (24–28 long ton/acre; 27–31 short ton/acre) per year.
+           </item>
+        <item>Jute is one of the most affordable natural fibers and it is second only to cotton in amount produced and variety of uses of vegetable fibers.
+            Jute fibers are composed primarily of the plant materials cellulose and lignin. It falls into the bast fiber category (fiber collected from
+            bast, the phloem of the plant, sometimes called the "skin") along with kenaf, industrial hemp, flax (linen), ramie, etc. The industrial term
+            for jute fiber is raw jute.The fibers are off-white to brown, and 1–4 metres (3–13 feet) long. Jute is also called the golden fiber for its
+            color and high cash value.</item>
+        <item>Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus
+            Gossypium in the mallow family Malvaceae. The fiber is almost pure cellulose.Under natural conditions, the cotton bolls will increase the
+            dispersal of the seeds.The plant is a shrub native to tropical and subtropical regions around the world, including the Americas,
+            Africa, and India. The greatest diversity of wild cotton species is found in Mexico, followed by Australia and Africa.
+            Cotton was independently domesticated in the Old and New Worlds.</item>
+        <item>Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen
+            shrub native to Asia.[3] After water, it is the most widely consumed drink in the world.[4] There are many different types of tea; some teas, like Darjeeling and Chinese greens, have a cooling,
+            slightly bitter, and astringent flavour, while others have vastly different profiles that include sweet, nutty, floral or grassy notes.</item>
+        <item>Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant.
+            The genus Coffea is native to tropical Africa (specifically having its origin in Ethiopia and Sudan) and Madagascar, the Comoros, Mauritius,
+            and Réunion in the Indian Ocean.[2] The plant was exported from Africa to countries around the world and coffee plants are now cultivated in
+            over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, India, and Africa. The two most commonly grown are
+            the highly regarded arabica, and the less sophisticated but stronger and more hardy robusta. Once ripe, coffee berries are picked, processed,
+            and dried. Dried coffee seeds (referred to as beans) are roasted to varying degrees,depending on the desired flavor. Roasted beans are ground
+            and brewed with near boiling water to produce coffee as a beverage.</item>
+        <item>Ginger (Zingiber officinale) is a flowering plant whose rhizome, ginger root or simply ginger, is widely used as a spice or a folk medicine.
+             It is a herbaceous perennial which grows annual stems about a meter tall bearing narrow green leaves and yellow flowers. Ginger is in the family
+            Zingiberaceae, to which also belong turmeric (Curcuma longa), cardamom (Elettaria cardamomum), and galangal.Ginger originated in the
+            tropical rainforest in Southern Asia. Although ginger no longer grows wild,it is thought to have originated on the Indian subcontinent
+            because the ginger plants grown in India show the largest amount of genetic variation</item>
+        <item>The garlic plant\'s bulb is the most commonly used part of the plant. With the exception of the single clove types, garlic bulbs are normally divided into numerous fleshy sections called cloves. Garlic cloves are used for consumption (raw or cooked) or for medicinal purposes. They have a characteristic pungent,
+            spicy flavor that mellows and sweetens considerably with cooking.</item>
+    </string-array>
+
+
+</resources>

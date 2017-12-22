@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/allCrops"
+            android:checked="true"
+            android:icon="@mipmap/crops"
+            android:title="@string/crops" />
+        <item
+            android:id="@+id/viewQuery"
+            android:icon="@drawable/question"
+            android:title="@string/view_queries" />
+        <item
+            android:id="@+id/addNews"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/news_and_info" />
+
+    </group>
+
+
+</menu>
